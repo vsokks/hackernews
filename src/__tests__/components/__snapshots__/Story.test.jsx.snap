@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Story Component with hyper link URL 1`] = `
+<div
+  className="card container-xs"
+  style={
+    Object {
+      "borderColor": "darkgrey",
+      "marginBottom": "8px",
+      "marginTop": "8px",
+      "padding": "5px",
+    }
+  }
+>
+  <div
+    className="row row-cols-12"
+  >
+    <div
+      className="col"
+    >
+      <h6
+        className="card-title"
+      >
+        This is sample title
+      </h6>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <p
+        className="card-text"
+      >
+        By 
+        <i>
+          test-user
+        </i>
+         on 
+        4/11/2008, 9:32 AM
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test Story Component without hyper link URL 1`] = `
+<div
+  className="card container-xs"
+  style={
+    Object {
+      "borderColor": "darkgrey",
+      "marginBottom": "8px",
+      "marginTop": "8px",
+      "padding": "5px",
+    }
+  }
+>
+  <div
+    className="row row-cols-12"
+  >
+    <div
+      className="col"
+    >
+      <h6
+        className="card-title"
+      >
+        <a
+          href="www.test.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          This is sample title
+        </a>
+      </h6>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12"
+    >
+      <p
+        className="card-text"
+      >
+        By 
+        <i>
+          test-user
+        </i>
+         on 
+      </p>
+    </div>
+  </div>
+</div>
+`;
